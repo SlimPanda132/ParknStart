@@ -148,7 +148,7 @@ flex-direction: column;
     align-items: center;
 }
 .backmainpic {
-    background-image:url(photos/MainBack.png);
+    background-image:url(Photos/MainBack.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 75%;
