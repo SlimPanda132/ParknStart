@@ -31,8 +31,7 @@ html, body{
 .headerlogo{
     position: relative;
     height: 2vh;
-    width: 40vw;
-    padding: none;
+    width: auto;
     padding-top: 6vh;
     padding-bottom: 6vh;
     margin: auto;
@@ -159,8 +158,6 @@ flex-direction: column;
     align-items: center;
 
 }
-
-
 .quotebtnmain{
     background-image: linear-gradient(to bottom, rgb(80, 170, 255), rgba(6, 79, 202));
     color: rgb(0, 0, 0);
@@ -185,8 +182,8 @@ flex-direction: column;
 
 .maincont{
     text-align: center;
-    height: 50vh;
-    width: 40vw;
+    height: auto;
+    width: auto;
     align-items: center;
     align-content: center;
     display: block;
