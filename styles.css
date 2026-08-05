@@ -32,11 +32,10 @@ html, body{
     position: relative;
     height: 2vh;
     width: 40vw;
-    left: 32%;
     padding: none;
     padding-top: 6vh;
     padding-bottom: 6vh;
-    margin: none;
+    margin: auto;
     border: none;
     border-radius: none;
     display: flex;
