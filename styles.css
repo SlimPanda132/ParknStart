@@ -5,6 +5,7 @@ html, body{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
+    overflow-y: auto;
     display: grid;
     justify-content: center;
     min-height: 100vh;
@@ -351,7 +352,7 @@ textarea{
     font-size: 24px;
     cursor: text;
     box-shadow: 5px 10px #1d1d1d;
-    width: 40%;
+    width: 60%;
 }
 
 input[type="text"],select textarea {
@@ -495,6 +496,22 @@ input[type="submit"]:hover {
 .treetracker{
     box-shadow: 5px 10px 40px rgb(110, 109, 109);
     border-radius: 50px;
+}
+/*Thank You Styles*/
+.thanks{
+    background-color: transparent;
+    color: rgb(190, 202, 216);
+    height: auto;
+    width: 80vw;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 28px;
+    border-radius: 10px;
+    a:link {color: rgb(80, 170, 255);}
+    a:visited {color: rgb(55, 110, 206);}
+    a:hover {color: rgb(55, 110, 206);}
+    a:active {color: rgb(80, 170, 255);}
 }
 
 /*Social Bar CSS*/
