@@ -238,7 +238,8 @@ flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 45px rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(103, 104, 104, 0.5);
     padding: 10px 30px;
     border-radius: 10px;
 }
@@ -269,7 +270,8 @@ flex-direction: column;
     max-width: 28vw;
     height: auto;
     background-color: transparent;
-    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 45px rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(103, 104, 104, 0.5);
     padding: 10px 30px;
     border-radius: 10px;
 }
@@ -497,6 +499,7 @@ input[type="submit"]:hover {
     box-shadow: 5px 10px 40px rgb(110, 109, 109);
     border-radius: 50px;
 }
+
 /*Thank You Styles*/
 .thanks{
     background-color: transparent;
